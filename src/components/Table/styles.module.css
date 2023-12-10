@@ -1,0 +1,11 @@
+.table {
+  border: 2px solid var(--border-color-primary);
+  border-collapse: collapse;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .table {
+    width: 95%;
+  }
+}
