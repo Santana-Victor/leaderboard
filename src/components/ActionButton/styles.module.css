@@ -1,0 +1,20 @@
+.action_btn {
+  border: none;
+  background: none;
+  background-color: var(--bg-btn-action);
+  color: var(--txt-color-secundary);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .action_btn:hover {
+    background-color: transparent;
+    color: var(--txt-color-primary);
+  }
+}
