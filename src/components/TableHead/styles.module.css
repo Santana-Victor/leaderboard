@@ -1,0 +1,11 @@
+.table_head {
+  border: 1px solid var(--border-color-primary);
+  padding: 4px;
+}
+
+@media (max-width: 600px) {
+  .table_head {
+    padding: 4px 2px;
+    font-size: 14px;
+  }
+}
