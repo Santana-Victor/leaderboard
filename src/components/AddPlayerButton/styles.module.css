@@ -1,0 +1,18 @@
+.add_player_btn {
+  border: 1px solid var(--border-color-primary);
+  border-radius: 5px;
+  background-color: var(--bg-btn-action);
+  color: var(--txt-color-secundary);
+  cursor: pointer;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .add_player_btn:hover {
+    background-color: transparent;
+    color: var(--txt-color-primary);
+  }
+}

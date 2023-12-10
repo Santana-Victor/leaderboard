@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+
+:root {
+  --border-color-primary: #000000;
+  --txt-color-primary: #000000;
+  --txt-color-secundary: #ffffff;
+  --bg-btn-action: #002351;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #eeeeee;
+  color: var(--txt-color-primary);
+}
